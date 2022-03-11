@@ -1,2 +1,2 @@
 $h = whoami
-echo $h
+echo $h | Out-File -FilePath .\test.txt
