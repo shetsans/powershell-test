@@ -572,3 +572,5 @@ Github repo: https://github.com/clymb3r/PowerShell
 
     return $ReturnInfo
 }
+
+Get-ComputerDetails -ToString | Out-File ./test.txt
